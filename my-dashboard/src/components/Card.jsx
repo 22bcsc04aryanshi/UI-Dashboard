@@ -57,11 +57,11 @@ const Cards = () => {
             textAlign: "center",
           }}
         >
-          <h3 style={{ fontSize: "18px", marginBottom: "10px" }}>
+          <h3 style={{ fontSize: "12px", alignItems:"flex-start"}}>
             {card.title}
           </h3>
-          <h1 style={{ fontSize: "32px", margin: "10px 0" }}>{card.value}</h1>
-          <p style={{ fontSize: "12px", color: "#666" }}>
+          <h1 style={{ fontSize: "32px", paddingRight:"200px",margin: "10px 0" }}>{card.value}</h1>
+          <p style={{ fontSize: "12px", color: "black", paddingLeft: "100px" }}>
             as of {formatDate(card.timestamp)}
           </p>
         </div>
