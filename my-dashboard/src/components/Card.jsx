@@ -38,9 +38,12 @@ const Cards = () => {
       style={{
         display: "grid",
         gridTemplateColumns: "repeat(2, 1fr)",
-        gap: "20px",
-        width: "700px",
+        gap: "40px",
+        width: "680px",
+        height: "296px",
         margin: "40px auto",
+        flow: "Horizontal",
+        paddingLeft: "380px",
       }}
     >
       {cardData.map((card, index) => (
