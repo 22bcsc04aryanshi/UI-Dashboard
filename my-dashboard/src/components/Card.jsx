@@ -43,7 +43,8 @@ const Cards = () => {
         height: "296px",
         margin: "40px auto",
         flow: "Horizontal",
-        paddingLeft: "380px",
+        paddingLeft: "30px",
+        paddingBottom: "280px",
       }}
     >
       {cardData.map((card, index) => (
