@@ -32,7 +32,7 @@ function formatDate(timestamp) {
   });
 }
 
-const Cards = () => {
+const DashboardCard1 = () => {
   return (
     <div
       style={{
@@ -70,4 +70,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default DashboardCard1;
